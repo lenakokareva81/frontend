@@ -1,0 +1,368 @@
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+img,
+nav {
+    display: flex;
+    /* border: 1px solid blue; */
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    margin: 0%;
+}
+
+span {
+    display: contents;
+}
+
+h1 {
+    font-family: 'Jost', Georgia, serif;
+    font-size: 6em;
+    line-height: calc(139/96);
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.375em;
+    line-height: calc(44.27/38);
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: calc(28.9/20);
+    color: #22303B;
+    text-align: center;
+}
+
+
+h4 {
+    font-family: 'Jost', Georgia, serif;
+    color: #FA3465;
+    size: 1.75em;
+}
+
+p {
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.0625em;
+    line-height: calc(25/17);
+    text-align: center;
+}
+
+div.nav {
+    margin-left: 100px;
+    position: relative;
+    float: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: calc(100vw - 200px);
+}
+
+div.banner {
+    background-image: url('img/Group10.svg');
+    background-color: white;
+    background-repeat: no-repeat;
+    width: calc(100vw - 200px);
+    padding-bottom: calc(83000%/1920);
+    background-clip: border-box;
+    background-size: auto;
+    background-position: top center;
+    position: relative;
+    margin-left: 100px;
+}
+
+div.banner {
+    background-image: url('img/Group10.svg');
+    background-color: white;
+    background-repeat: no-repeat;
+    width: calc(100vw - 200px);
+    padding-bottom: calc(90000%/1920);
+    background-clip: border-box;
+    background-size: auto;
+    background-position: top center;
+    position: relative;
+    margin-left: 100px;
+}
+
+div.menu_2 {
+    flex-direction: row;
+    justify-content: center;
+    width: calc(100vw - 200px);
+    align-self: center;
+    margin-left: 100px;
+}
+
+div.blok_2 {
+    margin-left: 100px;
+    width: calc(100% - 100px);
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.blok_2_text {
+    flex-direction: column;
+    width: 100%;
+
+}
+
+div.blok_2_verh_niz {
+    flex-direction: column;
+    position: relative;
+}
+
+div.blok_2_niz {
+    margin-left: 100px;
+    width: calc(100vw - 200px);
+    justify-content: space-between;
+    position: absolute;
+    top: calc(65300%/1345);
+}
+
+.blok_2_kray_pr {
+    margin-top: 200px;
+    height: 380px;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: calc(48300vw/1920);
+    position: relative;
+}
+
+.blok_2_kray_lev {
+    margin-top: 0px;
+    height: 580px;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: calc(48300vw/1920);
+    position: relative;
+
+}
+
+h2.blok_2_niz {
+    height: 200px;
+    padding-top: 100px;
+    text-align: left;
+}
+
+div.blok_2_sr {
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: calc(48300vw/1920);
+    position: relative;
+
+}
+
+img.ris_s_podpis {
+    width: calc(48300vw/1920);
+    height: calc(35200vw/1920);
+}
+
+img.logo {
+    margin-right: auto;
+}
+
+h4.ris_s_podpis {
+    background-color: #FFF;
+
+
+}
+
+h4.blok_2_podpis {
+    background-color: white;
+    text-align: left;
+    position: absolute;
+    width: calc(48300vw/1920 - 40px);
+    margin-left: 40px;
+    align-self: flex-end;
+
+}
+
+p.blok_2_podpis {
+    font-weight: 400;
+    font-size: 1.0625em;
+    line-height: 25px;
+    color: #000000;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    width: calc(48300vw/1920 - 40px);
+    margin-left: 40px;
+
+}
+
+div.banner_1 {
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    bottom: auto;
+}
+
+div.blok_3 {
+    background-color: #ffffff;
+    background-image: url(img/Frame_12.svg);
+    flex-direction: column;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-clip: border-box;
+    background-size: auto;
+    background-position: left top;
+    position: relative;
+}
+
+
+
+
+#verh {
+    color: #1C2D59;
+}
+
+#niz {
+    mix-blend-mode: multiply;
+    -webkit-text-stroke: .01em rgba(32, 23, 23, 0.5);
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+h2.blok_3 {
+    color: #FFF;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+div.blok_3_nomer {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: calc(100vw-100px);
+
+}
+
+div.blok_3_nomer_vl {
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    width: calc(100vw/3 - 150px);
+    flex-direction: column;
+}
+
+
+
+h4.blok_3_podpis {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.375em;
+    line-height: 2em;
+    color: #00213C;
+}
+
+p.blok_3 {
+    font-weight: 500;
+    font-size: 1.625em;
+    line-height: 2.375em;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+
+p.blok_3_nomer {
+    font-family: 'Kalam', 'Jost', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.375em;
+    /* line-height: 3.5625em; */
+    text-align: left;
+    color: #260E4D;
+    text-decoration: underline;
+    padding-bottom: 0px;
+}
+
+span.sin {
+    color: #0088FE;
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+span.roz {
+    color: #260E4D
+}
+
+
+
+a {
+    font-family: 'Jost', Georgia, serif;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a.menu {
+
+    font-weight: 400;
+    font-size: 1.0625em;
+    line-height: 1.5625em;
+    text-align: center;
+    color: #152836;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+a:hover {
+    color: #af1515;
+}
+
+a.batton {
+    font-weight: 500;
+    font-size: 1.0625em;
+    line-height: calc(25px/17);
+    color: #FFFFFF;
+    background-color: #F93264;
+    padding-top: 19px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+a.batton:hover {
+    background-color: #1a0c7e;
+}
+
+
+
+
+
+p.blok_3_podpis {
+    color: #EA557B;
+}
+
+p.osn_text {
+    font-weight: 600;
+    font-size: 1.75em;
+    line-height: calc(40/28);
+    color: #22303B;
+    text-align: left;
+}
